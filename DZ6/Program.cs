@@ -9,7 +9,6 @@ namespace DZ6
 {
     class Program
     {
-        //запись в файл
         static void Writer(string date, string[] arr)
         {
             StreamWriter StreamWriter = new StreamWriter("workers.txt", true);
